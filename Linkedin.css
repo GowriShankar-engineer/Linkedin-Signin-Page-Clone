@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: montserrat;
+    background-color: rgb(250, 246, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logo img{
+    width: 130px;
+    height: 60px;
+}
+.quote{
+    font-size: 20px;
+}
+.form
+{
+    padding: 0px;
+    margin-top: 30px;
+    background-color:white;
+    padding: 25px;
+    width: 300px;
+    height: 350px;
+    border-radius: 7.5px;
+    position: relative;
+}
+.lab{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: gray;
+
+}
+.policy{
+    font-size: 10px;
+}
+.in{
+    width: 290px;
+    height: 22.5px;
+    margin-bottom: 5px;
+    border:1px solid black;
+    border-radius: 3px;
+}
+.join{
+    background-color: rgb(54, 90, 250);
+    border: 0px solid;
+    border-radius: 19px;
+    width: 290px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.join:hover{
+    background-image: linear-gradient(to top,rgb(31, 107, 250),rgb(47, 60, 241));
+}
+.g{
+    margin-top: 20px;
+   background-color: white;
+   width: 286px;
+   border: 2px solid rgb(54, 90, 250);
+   padding: 9px;
+   border-radius: 19px;
+   color: rgb(54, 90, 250) ;
+   padding-left: 50px;
+   font-weight:bold;
+}
+.g:hover{
+    border: 2px solid gray;
+    color: gray;
+}
+.policy{
+    padding:0px 17px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 12.5px;
+}
+a{
+    text-decoration: none;
+    color:  rgb(54, 90, 250);
+}
+h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    color: gray;
+}
+input:focus{
+    border-color: rgb(248, 10, 10);
+}
+span{
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    color: gray;
+    display: inline-block;
+    position: absolute;
+    top: 235px;
+    left: 150px;
+    font-size: 13px;
+
+}
+.gle{
+    position: absolute;
+    top:297px;
+    left: 100px;
+
+}
